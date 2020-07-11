@@ -1,0 +1,28 @@
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Button {
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 40px 25px;
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.Button:active {
+    transform:  scale(0.98);
+    
+}
+
+.Button:focus {
+    outline: 0;
+}
+
+.Button:hover {
+    background-color: rgba(0, 195, 255, 0.425);
+}

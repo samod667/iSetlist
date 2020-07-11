@@ -1,0 +1,23 @@
+.Location { 
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 25px 25px;
+    display: flex;
+    flex-flow: column;
+}
+
+.Input {
+    width: 400px;
+    height: 30px;
+    padding: 5px;
+    font-size: 20px;
+    margin: 20px 150px;
+}
+
+.Example {
+    display: inline-block;
+}
+
+.Title {
+    font-size: 50px;
+}

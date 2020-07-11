@@ -1,0 +1,11 @@
+.Container { 
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 25px 25px;
+    display: flex;
+    flex-flow: column;
+}
+
+.Title {
+    font-size: 40px;
+}

@@ -1,0 +1,9 @@
+.App {
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    background-color: #fefefe;
+    flex-flow: column;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
