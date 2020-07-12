@@ -4,7 +4,7 @@ import classes from "./App.module.css";
 
 import Location from "./Components/Location/location";
 import TuneField from "./Components/TuneField/tuneField";
-import Submit from './Components/Submit/submit'
+import Submit from "./Components/Submit/submit";
 
 class App extends Component {
   state = {
@@ -44,20 +44,18 @@ class App extends Component {
     // console.log(textInputs)
   };
 
-  handleSubmit = () => {
-
-  }
+  handleSubmit = () => {};
 
   handleReset = () => {
     this.setState({
-      location: '',
-      date: '',
+      location: "",
+      date: "",
       numOfTunes: 0,
-      textFields: []
-    })
+      textFields: [],
+    });
 
     console.log(this.state);
-  }
+  };
 
   render() {
     const { location, date, textFields, numOfTunes } = this.state;
@@ -67,7 +65,7 @@ class App extends Component {
         <Location
           change={this.handleTextInput}
           title={"Where?"}
-          example={"(Location & Band name)"}
+          example={""}
           inputType={"text"}
           placeholder={"Describe here..."}
           value={location}
@@ -86,7 +84,14 @@ class App extends Component {
           tunes={textFields}
           numOfTunes={numOfTunes}
         />
-        <Submit reset={this.handleReset} submit={this.handleSubmit}/>
+        <Submit
+          reset={this.handleReset}
+          submit={this.handleSubmit}
+          location={location}
+          date={date}
+          tunes={textFields}
+          numOfTunes={numOfTunes}
+        />
       </div>
     );
   }

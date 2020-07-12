@@ -2,10 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: column;
 }
 
 .Button {
     border-radius: 5px;
+    display: inline-block;
     border: 1px solid black;
     margin: 40px 25px;
     width: 100px;

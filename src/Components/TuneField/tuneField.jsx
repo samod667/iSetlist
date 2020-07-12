@@ -42,11 +42,7 @@ export default function tuneField(props) {
         {numOfTunes > 0 ? <h3>Tune list:</h3> : null}
         {
             tunes.map((tune, i) => {
-                return (
-                  <React.Fragment>
-                    <span>{i + 1}.</span> <Tune value={tunes[i]} change={e => props.inputHandler(e, i)}/>
-                  </React.Fragment>
-                );
+                return <div key={i}>{i + 1}. <Tune key={i} value={tunes[i]} change={e => props.inputHandler(e, i)}/></div>;
             })
         }
       </div>

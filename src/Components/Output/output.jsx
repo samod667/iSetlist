@@ -1,11 +1,29 @@
-import React from 'react'
+import React, { Component } from "react";
+import Moment from 'react-moment'
 
-import classes from './output.module.css'
+import classes from "./output.module.css";
 
-export default function output() {
-    return (
-        <div>
-            
-        </div>
-    )
+class output extends Component {
+  render(props) {
+    const { location, date, tunes, numOfTunes } = this.props;
+    console.log(tunes)
+   return (
+     <div className={classes.Output}>
+       <h1 className={classes.Title}>{location}</h1>
+       {date !== "" ? (
+         <h3 className={classes.Date}>
+           <Moment format="DD/MM/YYYY">{date}</Moment>
+         </h3>
+       ) : null}
+
+       <ol className={classes.List}>
+         {tunes.map((tune) => (
+           <li className={classes.ListItem}>{tune}</li>
+         ))}
+       </ol>
+     </div>
+   );
+  }
 }
+
+export default output;
