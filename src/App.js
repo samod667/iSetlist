@@ -54,7 +54,7 @@ class App extends Component {
       textFields: [],
     });
 
-    console.log(this.state);
+    // console.log(this.state);
   };
 
   render() {

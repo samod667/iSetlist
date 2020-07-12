@@ -5,7 +5,7 @@ import classes from "./output.module.css";
 
 class output extends Component {
   render(props) {
-    const { location, date, tunes, numOfTunes } = this.props;
+    const { location, date, tunes } = this.props;
     console.log(tunes)
    return (
      <div className={classes.Output}>
