@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/iSetlist/static/css/main.36a76b7f.chunk.css",
-    "main.js": "/iSetlist/static/js/main.fcad7719.chunk.js",
-    "main.js.map": "/iSetlist/static/js/main.fcad7719.chunk.js.map",
+    "main.js": "/iSetlist/static/js/main.7863b0f3.chunk.js",
+    "main.js.map": "/iSetlist/static/js/main.7863b0f3.chunk.js.map",
     "runtime-main.js": "/iSetlist/static/js/runtime-main.908b2435.js",
     "runtime-main.js.map": "/iSetlist/static/js/runtime-main.908b2435.js.map",
     "static/js/2.8ed1c48a.chunk.js": "/iSetlist/static/js/2.8ed1c48a.chunk.js",
     "static/js/2.8ed1c48a.chunk.js.map": "/iSetlist/static/js/2.8ed1c48a.chunk.js.map",
     "index.html": "/iSetlist/index.html",
-    "precache-manifest.cee3e7c0efd6162b1483364b31dbf70b.js": "/iSetlist/precache-manifest.cee3e7c0efd6162b1483364b31dbf70b.js",
+    "precache-manifest.0b5ce87d035bb8c43a706361de2546b0.js": "/iSetlist/precache-manifest.0b5ce87d035bb8c43a706361de2546b0.js",
     "service-worker.js": "/iSetlist/service-worker.js",
     "static/css/main.36a76b7f.chunk.css.map": "/iSetlist/static/css/main.36a76b7f.chunk.css.map",
     "static/js/2.8ed1c48a.chunk.js.LICENSE.txt": "/iSetlist/static/js/2.8ed1c48a.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.908b2435.js",
     "static/js/2.8ed1c48a.chunk.js",
     "static/css/main.36a76b7f.chunk.css",
-    "static/js/main.fcad7719.chunk.js"
+    "static/js/main.7863b0f3.chunk.js"
   ]
 }
