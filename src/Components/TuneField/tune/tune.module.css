@@ -1,6 +1,32 @@
 .Input {
-    margin: 10px 40px;
-    width: 400px;
-    height: 30px;
-   
+  width: 400px;
+  height: 25px;
+  padding: 5px;
+  font-size: 14px;
+  margin: 20px 20px;
+  -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 0px 0px 1px 0px rgba(39, 37, 37, 0.55);
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.55);
+  border-radius: 5px;
+  border: 1px solid #d4d4d4;
+  transition: border 0.3;
+}
+
+.Input:active {
+  outline: none;
+}
+
+.Input:focus {
+  outline: none;
+  border: 1px solid #008cffee;
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 140, 255, 1);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(0, 140, 255, 1);
+  box-shadow: 0px 0px 3px 0px rgba(0, 140, 255, 1);
+}
+
+@media (max-width: 500px) {
+
+  .Input {
+    width: 60%;
+  }
 }

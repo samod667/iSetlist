@@ -64,7 +64,7 @@ class App extends Component {
       <div className={classes.App}>
         <Location
           change={this.handleTextInput}
-          title={"Where?"}
+          title={"where?"}
           example={""}
           inputType={"text"}
           placeholder={"Describe here..."}
@@ -72,14 +72,14 @@ class App extends Component {
         />
         <Location
           change={this.handleDateInput}
-          title={"When?"}
+          title={"when?"}
           inputType={"date"}
           value={date}
         />
         <TuneField
-          title={"How many tunes do you play?"}
+          title={"how many tunes?"}
           change={this.handleNumOfTunes}
-          placeholder={"Tunes number..."}
+          placeholder={"how many?"}
           inputHandler={this.handleInputChange}
           tunes={textFields}
           numOfTunes={numOfTunes}

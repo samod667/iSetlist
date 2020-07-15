@@ -6,7 +6,6 @@ import Output from "../Output/output";
 import classes from "./submit.module.css";
 
 class Submit extends React.Component {
-
   render() {
     return (
       <div className={classes.Container}>
@@ -29,14 +28,16 @@ class Submit extends React.Component {
           >
             Reset
           </button>
+          <hr />
         </div>
-        {this.props.numOfTunes > 0 ? <Output
-          ref={(el) => (this.componentRef = el)}
-          location={this.props.location}
-          date={this.props.date}
-          tunes={this.props.tunes}
-        /> : null}
-        
+        {this.props.numOfTunes > 0 ? (
+          <Output
+            ref={(el) => (this.componentRef = el)}
+            location={this.props.location}
+            date={this.props.date}
+            tunes={this.props.tunes}
+          />
+        ) : null}
       </div>
     );
   }

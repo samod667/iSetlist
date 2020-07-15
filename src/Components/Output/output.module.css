@@ -1,32 +1,31 @@
 .Output {
-    width: 100%;
-    display: flex;
-    flex-flow: column;
-   
+  width: 100%;
+  display: flex;
+  flex-flow: column;
 }
 
 .Title {
-    font-size: 50px;
-     margin: 20px 40px;
-     text-align: center;
+  font-size: 50px;
+
+  text-align: center;
 }
 
 .Date {
-     margin-top: 10px;
-     margin-left: 40px;
-     text-align: center;
+  margin-top: 10px;
+
+  text-align: center;
 }
 
 .List {
-    padding: 15px 5px;
-    font-size: 40px;
-    list-style: decimal;
-    margin: 0 40px;
+  padding: 15px 5px;
+  font-size: 40px;
+  list-style: decimal;
+  margin: 0 40px;
 }
 
 .ListItem {
-    margin: 20px;
-    padding: 5px;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  padding: 5px;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
 }
